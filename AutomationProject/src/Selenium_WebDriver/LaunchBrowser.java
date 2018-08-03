@@ -11,6 +11,8 @@ import com.google.common.base.VerifyException;
 public class LaunchBrowser {
 	public static WebDriver driver;
 	
+	
+	
 	public static void openURL(){
 		driver = new FirefoxDriver();
 		driver.get("http://flipkart.com");
@@ -21,6 +23,7 @@ public class LaunchBrowser {
 		driver.findElement(By.id("pass")).sendKeys("enter");
 	}
 	public static void main(String[] args) {
+		//open browser flipcart url
 		openURL();
 		
 

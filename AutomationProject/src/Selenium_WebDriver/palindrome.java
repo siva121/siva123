@@ -19,6 +19,7 @@ class palindrome
 		   System.out.println("palindrome number ");    
 		  else    
 		   System.out.println("not palindrome");    
+		  System.out.println("hi iam single");
 		}  
 		}  
 	
